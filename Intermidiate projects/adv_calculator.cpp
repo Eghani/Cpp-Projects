@@ -37,9 +37,9 @@ int main()
         case 1:
             cout << "\nYou chose Addition.\n";
             cout << "\nFOR THIS VERSION, YOU CAN ONLY DO OPERATIONS BETWEEN TWO NUMBERS.\n";
-            cout << "\nENter the First Number: ";
+            cout << "\nEnter the First Number: ";
             cin >> n1;
-            cout << "ENter the Second  Number: ";
+            cout << "Enter the Second  Number: ";
             cin >> n2;
             add = n1 + n2;
             cout << "\nThe Addition of " << n1 << " + " << n2 << " = " << add << ". \n"
@@ -48,9 +48,9 @@ int main()
         case 2:
             cout << "\nYou chose Subtraction.\n";
             cout << "\nFOR THIS VERSION, YOU CAN ONLY DO OPERATIONS BETWEEN TWO NUMBERS.\n";
-            cout << "\nENter the First Number: ";
+            cout << "\nEnter the First Number: ";
             cin >> n1;
-            cout << "ENter the Second  Number: ";
+            cout << "Enter the Second  Number: ";
             cin >> n2;
             substract = n1 - n2;
             cout << "\nThe Substraction of " << n1 << " - " << n2 << " = " << substract << ". \n"
@@ -59,9 +59,9 @@ int main()
         case 3:
             cout << "\nYou chose Multiplication.\n";
             cout << "\nFOR THIS VERSION, YOU CAN ONLY DO OPERATIONS BETWEEN TWO NUMBERS.\n";
-            cout << "\nENter the First Number: ";
+            cout << "\nEnter the First Number: ";
             cin >> n1;
-            cout << "ENter the Second  Number: ";
+            cout << "Enter the Second  Number: ";
             cin >> n2;
             Multi = n1 * n2;
             cout << "\nThe Multiplication of " << n1 << " * " << n2 << " = " << Multi << ". \n"
@@ -70,13 +70,13 @@ int main()
         case 4:
             cout << "\nYou chose Division.\n";
             cout << "\nFOR THIS VERSION, YOU CAN ONLY DO OPERATIONS BETWEEN TWO NUMBERS.\n";
-            cout << "\nENter the First Number: ";
+            cout << "\nEnter the First Number: ";
             cin >> n1;
             cout << "Enter the Second Number: ";
             cin >> n2;
             while (n2 == 0)
             {
-                cout << "Division by zero is not possible! Please enter a non-zero number: ";
+                cout << "Division by zero is not possible! Please Enter a non-zero number: ";
                 cin >> n2;
             }
 
